@@ -9,6 +9,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 public class MqQueueProApplication {
 
     public static void main(String[] args) {
+        System.out.println("asdfd");
         SpringApplication.run(MqQueueProApplication.class, args);
     }
 
